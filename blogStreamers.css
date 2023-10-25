@@ -1,0 +1,40 @@
+body {
+    background-color: #8B4513
+; /* Saddle Brown for the background */
+    font-family: 'Times', Lucida Console;
+    font-size: 2em;
+  /* Use red-serif sans-serif font */
+    color: #FFA600
+; /* Yellow Gold for text */
+}
+
+h1 {
+    color: #FFD700; /* Gold for the main blog title */
+}
+
+#blog-posts {
+    margin-top: 20px; /* Add some spacing for readability */
+}
+
+form {
+    margin-top: 20px; /* Add spacing above the form */
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #634e30; /* Dark Brown on button to make it seem like a blank box  */
+    color: #634e30; /* Dark brown text on the button */
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+}
+
+input[type="submit"]:hover {
+    background-color: #D2691E; /* Darker gold to create a dim flashing effect on hover */
+}
