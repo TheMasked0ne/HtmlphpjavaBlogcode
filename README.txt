@@ -118,5 +118,9 @@ I recommend visiting https://htmlhead.dev/ , A project by Josh Buchea - https://
 it houses a plethora of knowledge on the subject of the "<head>"and the expansive elements to compliment any html
 related subject of your future works.
 
+  The <body> in the first copy html Isn't very idea oriented. As it was titled "TheGiraffeMemoBlog.com" yet the first
+ heading (h1)(/h1) "The Woe's StolenChristmas Blog." the heading is what you're going to be seeing on the webpage itself
+ so the title would really have to match the headings at all but, Its best to have a idea. In the improved code its much
+ easier to read and you can better understand what happening in the code almost at first glance.
 
 

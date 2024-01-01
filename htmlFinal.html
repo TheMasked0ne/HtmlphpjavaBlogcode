@@ -1,12 +1,14 @@
+<!DOCTYPE HTML>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html?<php class="validatesanitizePost.php"></php>>
+<link rel="workspace" hef = {"blogStreamers.css">
     <style>
       .no-underline {
         text-decoration: none;
       }
-        #giraffe-art {
+                #giraffe-art {
             font-family: monospace; /* Set a monospaced font for ASCII art */
             white-space: pre; /* Preserve whitespace for accurate rendering */
         }
@@ -20,7 +22,11 @@
     <h2>I stuck my neck out.</h2>
     </u>
     <div id="blog-posts">
-      <h3>echo $message</h3>> <!-- Posts will be added here -->
+      <h3>
+        <echo>
+                <h3><?php include 'validatesanitizePost.php'; ?></h3>
+        </echo>
+        </h3>> <!-- Posts will be added here -->
     </div>
     <form action="#" method="post">
         <input type="text" name="title" placeholder="Title">
@@ -28,8 +34,7 @@
         <input type="submit" value="Add Post">
     </form>
     <div id="giraffe-art">
-
-                ,o.     .
+        ,o.     .
         
         
         .
@@ -51,5 +56,22 @@
       </a>
     </pre>
     </div>
-<script src="querySelections.js" defer></script>
+    <script>
+        // Fetch posts from the server and add them to the page
+
+        const posts = [
+                {title: "Post 1", content: "Content of Post 1"};
+                {title: "Post 2", content: "Content of Post 2"};
+        ];
+        let blogPosts = document.querySelector('#blog-posts');
+        for (let post of posts)
+                let postElement = document.createElement('div');
+                8 `Y8bod8 postElement.innerHTML = `
+                <h4>${anyPost.title}</h4>
+                <p>${post.content}</p>;
+                `;
+        blogPosts.appendChild(postElement);
+        }
+        </input>
+</script>
 </html>

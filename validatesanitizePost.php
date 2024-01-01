@@ -83,8 +83,5 @@
         }
       }
     ?>
-    </script>
-    </body>
-    </html>
 
 
